@@ -3,15 +3,18 @@ import numpy as np
 import gym
 
 class DQN:
-    def __init__(self, epsilon) -> None:
+    def __init__(self, epsilon = 0.03, discount = 0.99, minibatch_size = 64) -> None:
         # env
         self.env = None
 
-        # architectures 
+        # default: multi-layer perceptron
+        # https://towardsdatascience.com/multi-layer-perceptron-using-tensorflow-9f3e218a4809
         self.policy_network = None
 
         # algorithmic
         self.epsilon = epsilon
+        self.discount = discount
+        self.minibatch_size = minibatch_size
 
     def preprocess(self, obs):
         # preprocess is equivalent to \pi in the pseudo-code.
@@ -24,12 +27,19 @@ class DQN:
         self.policy_network
         pass
 
-    def train(self, episode = 100, time = 100):
+    def q_value(self, obs, action):
+        pass
+
+    def gradient_descent_step(self, target : float):
+        
+        np.gradient(target)
+        pass
+
+    def train(self, episode = 100, time = 100) -> None:
         ''' Pseudo-code in https://www.researchgate.net/figure/Pseudo-code-of-DQN-with-experience-replay-method-12_fig11_333197086'''
 
-
         # Initialize replay memory D to capacity N
-        self.replay_memory = Replay_Buffer()
+        self.replay_memory = Replay_Buffer( minibatch_size = self.minibatch_size )
 
         # Initialize action-value function Q with random weights
         for eps in (1, episode+1):
@@ -53,9 +63,20 @@ class DQN:
                 
                 # Set s_{t+1} = s_{t}, a_{t}, x_{t+1} and preprocess \pi_{t+1} = \pi(s_{t+1})
                 
+                # Store transition ( \pi_{t}, a_{t}, r_{t}, \pi_{t+1} ) in D
+                self.replay_memory.store( {"obs":None, "action": action, 'reward': reward, "next_obs": None} )
+
+                # Sample random minibatch of transitions ( \pi_{t}, a_{t}, r_{t}, \pi_{t+1} ) from D
+                minibatch = self.replay_memory.random_sample()
                 
                 if done:
+                    target = reward
                     break
+                else:
+                    target = reward + self.discount * self.q_value( obs = minibatch["next_obs"],
+                                                                    action = self.max_action( minibatch["next_obs"] ) )
+
+                # Perform a gradient descent step on ... according to equation 3
 
 
 class Replay_Buffer:
@@ -63,6 +84,7 @@ class Replay_Buffer:
         self.capacity = capacity
         self.count = 0
         self.buffer = [] # list of transition-dicts
+        self.minibatch_size = 40
 
     def store(self, transition : dict) -> bool:
 
@@ -74,3 +96,14 @@ class Replay_Buffer:
         self.buffer.append( transition )
 
 
+    def random_sample(self, sample_size : int) -> np.array:
+        # sample random mini-batch
+        return np.random.choice(a = self.buffer, size = sample_size, replace = False)
+
+
+class MultiLayerPerceptron:
+
+    # https://www.tutorialspoint.com/tensorflow/tensorflow_multi_layer_perceptron_learning.htm
+
+    def __init__(self) -> None:
+        pass
