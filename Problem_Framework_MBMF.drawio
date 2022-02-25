@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T01:40:58.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="AsdASgncmLkPPD7hd_ii" version="16.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-25T02:03:39.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="7I--K8S0DouYNtYEtUX-" version="16.6.4" type="github" pages="2">
   <diagram id="rs5LrS3yjigf87WkTgGt" name="Page-1">
-    <mxGraphModel dx="2332" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2075" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -361,17 +361,17 @@
         <mxCell id="gYe92Rgtv7boX88liuPo-652" value="RL Online Model-Free" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="2000" y="210" width="210" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="gYe92Rgtv7boX88liuPo-653" value="RL Online Hybrid" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;startSize=23;" parent="1" vertex="1">
+        <mxCell id="gYe92Rgtv7boX88liuPo-653" value="RL Online Hybrid" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;startSize=23;labelPadding=0;autosize=1;" parent="1" vertex="1">
           <mxGeometry x="2220" y="210" width="290" height="1700" as="geometry" />
         </mxCell>
-        <mxCell id="JIbpB6RPbDgucNRNDlhD-12" value="&lt;h4&gt;Combining Model-Based and Model-Free Updates for Trajectory-Centric Reinforcement Learning&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(Sergey Levine: ICML 2017 )&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;resizeHeight=1;whiteSpace=wrap;labelBorderColor=none;resizeWidth=1;" vertex="1" parent="gYe92Rgtv7boX88liuPo-653">
-          <mxGeometry x="10" y="30" width="270" height="230" as="geometry" />
+        <mxCell id="JIbpB6RPbDgucNRNDlhD-12" value="&lt;b&gt;Combining Model-Based and Model-Free Updates for Trajectory-Centric Reinforcement Learning&lt;br&gt;&lt;/b&gt;&lt;br&gt;(Sergey Levine: PMLR 2017 )&lt;br&gt;&lt;br&gt;&lt;b&gt;Link:&lt;/b&gt;&amp;nbsp;&lt;br&gt;http://proceedings.mlr.press/v70/chebotar17a/chebotar17a.pdf&lt;br&gt;&lt;br&gt;&lt;b&gt;Summary:&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Instead of using DNN as policy approximator, this paper uses TVLG (Time-Varying Linear Gaussian)&amp;nbsp;Controllers as policy representation which is compatible to fast optimization with model-based LQR-FLM ( and model-free PI^2&lt;/li&gt;&lt;li&gt;Main contribution of this paper is a procedure for optimizing time-varying linear gaussian (TVLG) policies that integrates both fast model-based updates via iterative linear-Gaussian model fitting and corrective model-free updates via the PI^2 framework.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;overflow=fill;rounded=0;labelBackgroundColor=none;sketch=0;resizeHeight=1;labelBorderColor=none;resizeWidth=1;expand=0;whiteSpace=wrap;html=1;noLabel=0;portConstraint=east;strokeOpacity=100;container=0;autosize=0;" vertex="1" parent="gYe92Rgtv7boX88liuPo-653">
+          <mxGeometry x="10" y="30" width="270" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="JIbpB6RPbDgucNRNDlhD-13" value="&lt;h4&gt;Temporal Difference Models: Model-Free Deep RL for Model-Based Control&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(Sergey Levine: ICLR 2018)&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;resizeHeight=1;whiteSpace=wrap;" vertex="1" parent="gYe92Rgtv7boX88liuPo-653">
-          <mxGeometry x="10" y="270" width="270" height="230" as="geometry" />
+        <mxCell id="JIbpB6RPbDgucNRNDlhD-13" value="&lt;h4&gt;Temporal Difference Models: Model-Free Deep RL for Model-Based Control&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(Sergey Levine: ICLR 2018)&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Link:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;overflow=fill;rounded=0;labelBackgroundColor=none;sketch=0;resizeHeight=1;whiteSpace=wrap;portConstraint=east;autosize=0;resizeWidth=1;expand=0;" vertex="1" parent="gYe92Rgtv7boX88liuPo-653">
+          <mxGeometry x="10" y="428" width="270" height="230" as="geometry" />
         </mxCell>
         <mxCell id="JIbpB6RPbDgucNRNDlhD-14" value="&lt;h4&gt;&lt;span&gt;Model-Based Priors for Model-Free Reinforcement Learning&lt;/span&gt;&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(Sergey Levine: CoRR 2017)&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;resizeHeight=1;whiteSpace=wrap;" vertex="1" parent="gYe92Rgtv7boX88liuPo-653">
-          <mxGeometry x="10" y="510" width="270" height="230" as="geometry" />
+          <mxGeometry x="10" y="681" width="270" height="230" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-654" value="RL Online Comparison" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="2530" y="210" width="208" height="310" as="geometry" />
