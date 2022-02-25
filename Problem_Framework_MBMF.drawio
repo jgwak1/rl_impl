@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T01:29:15.370Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="aPiP4ajj3dSH-AFSev8e" version="16.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-25T01:40:58.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="AsdASgncmLkPPD7hd_ii" version="16.6.4" type="github" pages="2">
   <diagram id="rs5LrS3yjigf87WkTgGt" name="Page-1">
     <mxGraphModel dx="2332" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -331,7 +331,7 @@
         <mxCell id="gYe92Rgtv7boX88liuPo-646" value="RL Offline Comparison" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="1510" y="210" width="230" height="1650" as="geometry" />
         </mxCell>
-        <mxCell id="JIbpB6RPbDgucNRNDlhD-11" value="&lt;h4&gt;&lt;span&gt;Comparing Model-Free and Model-Based Algorithms for Offline RL&lt;/span&gt;&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(Phillip Swazinaa: arxiv )&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;resizeHeight=1;whiteSpace=wrap;" vertex="1" parent="gYe92Rgtv7boX88liuPo-646">
+        <mxCell id="JIbpB6RPbDgucNRNDlhD-11" value="&lt;h4&gt;&lt;span&gt;Comparing Model-Free and Model-Based Algorithms for Offline RL&lt;/span&gt;&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(Phillip Swazinna: arxiv )&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;overflow=block;rounded=0;labelBackgroundColor=none;sketch=0;resizeHeight=1;whiteSpace=wrap;fillOpacity=100;arcSize=12;" vertex="1" parent="gYe92Rgtv7boX88liuPo-646">
           <mxGeometry x="6" y="41" width="215" height="170" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-647" value="" style="endArrow=none;html=1;rounded=1;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;curved=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="gYe92Rgtv7boX88liuPo-644" target="gYe92Rgtv7boX88liuPo-629" edge="1">
@@ -363,6 +363,15 @@
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-653" value="RL Online Hybrid" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="2220" y="210" width="290" height="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="JIbpB6RPbDgucNRNDlhD-12" value="&lt;h4&gt;Combining Model-Based and Model-Free Updates for Trajectory-Centric Reinforcement Learning&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(Sergey Levine: ICML 2017 )&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;resizeHeight=1;whiteSpace=wrap;labelBorderColor=none;resizeWidth=1;" vertex="1" parent="gYe92Rgtv7boX88liuPo-653">
+          <mxGeometry x="10" y="30" width="270" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="JIbpB6RPbDgucNRNDlhD-13" value="&lt;h4&gt;Temporal Difference Models: Model-Free Deep RL for Model-Based Control&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(Sergey Levine: ICLR 2018)&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;resizeHeight=1;whiteSpace=wrap;" vertex="1" parent="gYe92Rgtv7boX88liuPo-653">
+          <mxGeometry x="10" y="270" width="270" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="JIbpB6RPbDgucNRNDlhD-14" value="&lt;h4&gt;&lt;span&gt;Model-Based Priors for Model-Free Reinforcement Learning&lt;/span&gt;&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(Sergey Levine: CoRR 2017)&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;resizeHeight=1;whiteSpace=wrap;" vertex="1" parent="gYe92Rgtv7boX88liuPo-653">
+          <mxGeometry x="10" y="510" width="270" height="230" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-654" value="RL Online Comparison" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="2530" y="210" width="208" height="310" as="geometry" />
