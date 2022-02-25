@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T01:05:21.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="2sI8PShS2qn9tVFWRwJ0" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-25T01:07:21.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="8IpeaN71_llVgDEe9X2b" version="16.6.4" type="github">
   <diagram id="rs5LrS3yjigf87WkTgGt" name="Page-1">
     <mxGraphModel dx="2332" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -159,6 +159,9 @@
         </mxCell>
         <mxCell id="QpMWJNPEq7iUGMKIBiDv-14" value="&lt;h4&gt;Accelerating Online Reinforcement Learning via Model-based Learning&lt;/h4&gt;&lt;h4&gt;(Sergey Levine, et.al : Learning to Learn 2021 )&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="gYe92Rgtv7boX88liuPo-610">
           <mxGeometry x="7.5" y="41" width="205" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QpMWJNPEq7iUGMKIBiDv-15" value="&lt;h4&gt;Model-Based Reinforcement Learning via Meta-Policy Optimization&lt;/h4&gt;&lt;h4&gt;(Pieter Abbeel, et.al : CoRR 2018 )&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="gYe92Rgtv7boX88liuPo-610">
+          <mxGeometry x="7.5" y="230" width="205" height="170" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-611" value="Meta-RL Online Model-Free" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="-50" y="210" width="230" height="1350" as="geometry" />
