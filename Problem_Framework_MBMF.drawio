@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T01:09:09.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Ag2yO1wz9LniMfTHhKuf" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-25T01:29:15.370Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="aPiP4ajj3dSH-AFSev8e" version="16.6.4" type="github" pages="2">
   <diagram id="rs5LrS3yjigf87WkTgGt" name="Page-1">
     <mxGraphModel dx="2332" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -215,7 +215,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-626" value="&lt;b&gt;Model-Based&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
-          <mxGeometry x="842.5" y="135" width="120" height="30" as="geometry" />
+          <mxGeometry x="822.5" y="135" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-627" value="&lt;b&gt;Offline&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
           <mxGeometry x="1310" y="60" width="100" height="30" as="geometry" />
@@ -230,7 +230,7 @@
           <mxGeometry x="1090" y="135" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-630" value="&lt;b&gt;Comparison&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
-          <mxGeometry x="1580" y="135" width="100" height="30" as="geometry" />
+          <mxGeometry x="1575" y="135" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-631" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;" parent="1" source="gYe92Rgtv7boX88liuPo-627" target="gYe92Rgtv7boX88liuPo-629" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -251,10 +251,10 @@
           <mxGeometry x="2070" y="135" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-635" value="&lt;b&gt;Hybrid&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
-          <mxGeometry x="2300" y="140" width="70" height="30" as="geometry" />
+          <mxGeometry x="2330" y="140" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-636" value="&lt;b&gt;Comparison&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
-          <mxGeometry x="2470" y="140" width="100" height="30" as="geometry" />
+          <mxGeometry x="2584" y="140" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-637" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#788AA3;fontColor=#46495D;" parent="1" source="gYe92Rgtv7boX88liuPo-633" target="gYe92Rgtv7boX88liuPo-623" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -293,16 +293,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-643" value="RL Offline Model-Based" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="780" y="210" width="245" height="1350" as="geometry" />
+          <mxGeometry x="760" y="210" width="245" height="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="QpMWJNPEq7iUGMKIBiDv-18" value="&lt;h4&gt;Offline RL with Reverse Model-based Imagination&lt;/h4&gt;&lt;h4&gt;(Baidu China : NIPS 2021 )&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="gYe92Rgtv7boX88liuPo-643">
+          <mxGeometry x="20" y="41" width="205" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QpMWJNPEq7iUGMKIBiDv-19" value="&lt;h4&gt;MOReL: Model-Based Offline RL&lt;/h4&gt;&lt;h4&gt;(Rahul Kidambi, et al. : NIPS 2020 )&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="gYe92Rgtv7boX88liuPo-643">
+          <mxGeometry x="20" y="230" width="205" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="JIbpB6RPbDgucNRNDlhD-4" value="&lt;h4&gt;Fine-tuning Offline Model-Based Policy Optimization&lt;/h4&gt;&lt;h4&gt;(Adam Villaflor, et al. : ICLR 2021 - Reject)&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="gYe92Rgtv7boX88liuPo-643">
+          <mxGeometry x="20" y="420" width="205" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="JIbpB6RPbDgucNRNDlhD-5" value="&lt;h4&gt;COMBO: Conservative Offline Model-Based Policy Optimization&lt;/h4&gt;&lt;h4&gt;(Chelsea Finn, et al. : NIPS 2021)&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="gYe92Rgtv7boX88liuPo-643">
+          <mxGeometry x="20" y="610" width="205" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="JIbpB6RPbDgucNRNDlhD-6" value="&lt;h4&gt;Offline Model-based Adaptable Policy Learning&lt;/h4&gt;&lt;h4&gt;(Xiong-Hui Chen, et al. : NIPS 2021)&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="gYe92Rgtv7boX88liuPo-643">
+          <mxGeometry x="20" y="810" width="205" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="JIbpB6RPbDgucNRNDlhD-7" value="&lt;h4&gt;Weighted Model Estimation for Offline Model-based Reinforcement Learning&lt;/h4&gt;&lt;h4&gt;(Toru Hishinuma, et al. : NIPS 2021)&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="gYe92Rgtv7boX88liuPo-643">
+          <mxGeometry x="20" y="1010" width="205" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="JIbpB6RPbDgucNRNDlhD-8" value="&lt;h4&gt;Overcoming Model-Bias for Robust Offline Deep Reinforcement Learning&lt;/h4&gt;&lt;h4&gt;(Phillip Swazinna, et al. : CoRR 2020)&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="gYe92Rgtv7boX88liuPo-643">
+          <mxGeometry x="20" y="1210" width="205" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="JIbpB6RPbDgucNRNDlhD-9" value="&lt;h4&gt;Behavioral Priors and Dynamics Models : Improving Performance and Domain Transfer in Offline RL&lt;/h4&gt;&lt;h4&gt;(Pieter Abbeel, et al. : NIPS 2021)&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="gYe92Rgtv7boX88liuPo-643">
+          <mxGeometry x="20" y="1410" width="205" height="170" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-644" value="RL Offline Model-Free" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="1040" y="210" width="230" height="1350" as="geometry" />
         </mxCell>
+        <mxCell id="JIbpB6RPbDgucNRNDlhD-10" value="&lt;h4&gt;&lt;span&gt;Uncertainty-Based Offline RL with Diversified Q-Ensemble&lt;/span&gt;&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(Gaon An: NIPS 2021 )&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;resizeHeight=1;whiteSpace=wrap;" vertex="1" parent="gYe92Rgtv7boX88liuPo-644">
+          <mxGeometry x="12.5" y="51" width="205" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-645" value="RL Offline Hybrid" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="210" width="190" height="300" as="geometry" />
+          <mxGeometry x="1285" y="210" width="220" height="1650" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-646" value="RL Offline Comparison" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1526" y="210" width="208" height="300" as="geometry" />
+          <mxGeometry x="1510" y="210" width="230" height="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="JIbpB6RPbDgucNRNDlhD-11" value="&lt;h4&gt;&lt;span&gt;Comparing Model-Free and Model-Based Algorithms for Offline RL&lt;/span&gt;&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(Phillip Swazinaa: arxiv )&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;:&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;overflow=hidden;rounded=0;labelBackgroundColor=none;sketch=0;resizeHeight=1;whiteSpace=wrap;" vertex="1" parent="gYe92Rgtv7boX88liuPo-646">
+          <mxGeometry x="6" y="41" width="215" height="170" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-647" value="" style="endArrow=none;html=1;rounded=1;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;curved=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="gYe92Rgtv7boX88liuPo-644" target="gYe92Rgtv7boX88liuPo-629" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -326,16 +356,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-651" value="RL Online Model-Based" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="210" width="210" height="310" as="geometry" />
+          <mxGeometry x="1760" y="210" width="220" height="310" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-652" value="RL Online Model-Free" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="2000" y="210" width="210" height="310" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-653" value="RL Online Hybrid" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="2240" y="210" width="190" height="310" as="geometry" />
+          <mxGeometry x="2220" y="210" width="290" height="1700" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-654" value="RL Online Comparison" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2460" y="210" width="208" height="310" as="geometry" />
+          <mxGeometry x="2530" y="210" width="208" height="310" as="geometry" />
         </mxCell>
         <mxCell id="gYe92Rgtv7boX88liuPo-655" value="" style="endArrow=none;html=1;rounded=1;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gYe92Rgtv7boX88liuPo-633" target="gYe92Rgtv7boX88liuPo-651" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -364,6 +394,14 @@
         <mxCell id="QpMWJNPEq7iUGMKIBiDv-12" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="1" source="gYe92Rgtv7boX88liuPo-443" target="gYe92Rgtv7boX88liuPo-443">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bzl5pQCeSIIHdRTmGfzq" name="Page-2">
+    <mxGraphModel dx="1132" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="8M8-kAXXJRxwidWSKrvp-0" />
+        <mxCell id="8M8-kAXXJRxwidWSKrvp-1" parent="8M8-kAXXJRxwidWSKrvp-0" />
       </root>
     </mxGraphModel>
   </diagram>
