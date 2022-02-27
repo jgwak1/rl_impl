@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T05:16:15.665Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="kTcyZvI_uysItWA_3TUR" version="16.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-27T06:43:09.463Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="-fpcV-Yt5cZr-UCrT5Aj" version="16.6.4" type="github" pages="2">
   <diagram id="rs5LrS3yjigf87WkTgGt" name="Page-1">
     <mxGraphModel dx="2622" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -377,7 +377,7 @@
           <mxGeometry x="9" y="2230" width="270" height="530" as="geometry" />
         </mxCell>
         <mxCell id="JIbpB6RPbDgucNRNDlhD-23" value="&lt;h4&gt;&lt;span&gt;Predictive representations can link model-based reinforcement learning to model-free algorithms&lt;/span&gt;&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(Evan M. Russek, et al.: pcbi 2017)&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;br&gt;&lt;b&gt;Link:&lt;/b&gt;&amp;nbsp;&lt;br&gt;https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005768&lt;br&gt;&lt;br&gt;&lt;b&gt;Summary:&lt;br&gt;&lt;/b&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;overflow=fill;rounded=0;labelBackgroundColor=none;sketch=0;resizeHeight=1;labelBorderColor=none;resizeWidth=1;expand=0;whiteSpace=wrap;html=1;noLabel=0;portConstraint=east;strokeOpacity=100;container=0;autosize=0;" parent="gYe92Rgtv7boX88liuPo-653" vertex="1">
-          <mxGeometry x="9" y="3780" width="270" height="220" as="geometry" />
+          <mxGeometry x="9" y="3754" width="270" height="220" as="geometry" />
         </mxCell>
         <mxCell id="JIbpB6RPbDgucNRNDlhD-24" value="&lt;h4&gt;Look Before You Leap: Bridging Model-Free and Model-Based Reinforcement Learning for Planned-Ahead Vision-and-Language Navigation&lt;/h4&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(Xin Wang, et al.: ECCV 2018)&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;br&gt;&lt;b&gt;Link:&lt;/b&gt;&amp;nbsp;&lt;br&gt;https://openaccess.thecvf.com/content_ECCV_2018/html/Xin_Wang_Look_Before_You_ECCV_2018_paper.html&lt;br&gt;&lt;b&gt;&lt;br&gt;Summary:&lt;br&gt;&lt;/b&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;overflow=fill;rounded=0;labelBackgroundColor=none;sketch=0;resizeHeight=1;labelBorderColor=none;resizeWidth=1;expand=0;whiteSpace=wrap;html=1;noLabel=0;portConstraint=east;strokeOpacity=100;container=0;autosize=0;" parent="gYe92Rgtv7boX88liuPo-653" vertex="1">
           <mxGeometry x="10" y="3254" width="270" height="476" as="geometry" />
